@@ -1,3 +1,5 @@
+// The layout
+// may end up scrapping it
 import React from 'react'
 
 const Layout = ({ children }) => (
