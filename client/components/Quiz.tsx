@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 const questions = [
   {
     // Q1
-    question: 'Which Olypics have been postponed due to Covid-19?',
+    question: 'Which Olympics have been postponed due to Covid-19?',
     options: ['Rio de Janerio', 'Beijing', 'Tokyo', 'Pyeongchang'],
     answer: 'Tokyo',
   },
