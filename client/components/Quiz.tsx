@@ -16,13 +16,13 @@ const questions = [
   },
   {
     // Q3
-    question: 'What does the green colour on the olympic symbol represent?',
+    question: 'What does the green colour on the Olympic symbol represent?',
     options: ['Europe', 'America', 'Africa', 'Australia', 'Asia'],
     answer: 'Australia',
   },
   {
     // Q4
-    question: 'What are not the 5 official Olympic Values',
+    question: 'What are not the 5 official Olympic Values?',
     options: [
       'Fair Play',
       'Respect for others',
