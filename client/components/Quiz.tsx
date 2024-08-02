@@ -10,7 +10,7 @@ const questions = [
   },
   {
     // Q2
-    question: 'When were the first knoown Olypic games held?',
+    question: 'When were the first known Olypic games held?',
     options: ['775 BC', '776 BC', '777 BC', '778 BC'],
     answer: '776 BC',
   },
