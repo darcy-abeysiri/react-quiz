@@ -2,105 +2,142 @@
 import React, { useState } from 'react'
 
 const questions = [
-  { // Q1
+  {
+    // Q1
     question: 'Which Olypics have been postponed due to Covid-19?',
     options: ['Rio de Janerio', 'Beijing', 'Tokyo', 'Pyeongchang'],
-    answer: 'Tokyo'
+    answer: 'Tokyo',
   },
-  { // Q2
+  {
+    // Q2
     question: 'When were the first knoown Olypic games held?',
     options: ['775 BC', '776 BC', '777 BC', '778 BC'],
-    answer: '776 BC'
+    answer: '776 BC',
   },
-  { // Q3
+  {
+    // Q3
     question: 'What does the green colour on the olympic symbol represent?',
-    options: ['Europe','America','Africa','Australia','Asia'],
-    answer: 'Australia'
+    options: ['Europe', 'America', 'Africa', 'Australia', 'Asia'],
+    answer: 'Australia',
   },
-  { // Q4
+  {
+    // Q4
     question: 'What are not the 5 official Olympic Values',
-    options: ['Fair Play','Respect for others','Joy of effort','Mental Activity'],
-    answer: 'Mental Activity'
+    options: [
+      'Fair Play',
+      'Respect for others',
+      'Joy of effort',
+      'Mental Activity',
+    ],
+    answer: 'Mental Activity',
   },
-  { // Q5
+  {
+    // Q5
     question: 'What is not the Olympic Motto',
-    options: ['Higher','Teamwork','Faster','Stronger'], // Daft punk ref there
-    answer: 'Teamwork'
+    options: ['Higher', 'Teamwork', 'Faster', 'Stronger'], // Daft punk ref there
+    answer: 'Teamwork',
   },
-  { // Q6
+  {
+    // Q6
     question: 'When were the first Winter Olympics held?',
-    options: ['1924','1925','1926','1927'],
-    answer: '1924'
+    options: ['1924', '1925', '1926', '1927'],
+    answer: '1924',
   },
-  { // Q7
+  {
+    // Q7
     question: 'Where did the first Winter Olympic Games take place?',
-    options: ['Sapporo, Japan','Chamonix, France','St. Moritz, Swizerland','Innsbruck, Austria'],
-    answer: 'Chamonix, France'
+    options: [
+      'Sapporo, Japan',
+      'Chamonix, France',
+      'St. Moritz, Swizerland',
+      'Innsbruck, Austria',
+    ],
+    answer: 'Chamonix, France',
   },
-  { // Q8
+  {
+    // Q8
     question: 'What is the first Offcial Olympic Mascot?',
-    options: ['Waldi','Misha','Amil','Sam'],
-    answer: 'Waldi'
+    options: ['Waldi', 'Misha', 'Amil', 'Sam'],
+    answer: 'Waldi',
   },
-  { // Q9
+  {
+    // Q9
     question: 'How many grams of gold are in gold medals?',
-    options: ['4','5','6','7'],
-    answer: '6'
+    options: ['4', '5', '6', '7'],
+    answer: '6',
   },
-  { // Q10
+  {
+    // Q10
     question: 'What is not new sports introduced at the Pris Olympics?',
-    options: ['Breaking','Surfing','Skateboarding','E-Sports'],
-    answer: 'E-Sports'
+    options: ['Breaking', 'Surfing', 'Skateboarding', 'E-Sports'],
+    answer: 'E-Sports',
   },
-  { // Q11
+  {
+    // Q11
     question: 'How many rings are there in the olympic flag?',
-    options: ['4','7','5','6'],
-    answer: '5'
+    options: ['4', '7', '5', '6'],
+    answer: '5',
   },
-  { // Q12
-    question: 'The Olympic Games could be viewed on mobile devices for the first time in which year?',
-    options: ['2000','2002','2004','2006'],
-    answer: '2006'
+  {
+    // Q12
+    question:
+      'The Olympic Games could be viewed on mobile devices for the first time in which year?',
+    options: ['2000', '2002', '2004', '2006'],
+    answer: '2006',
   },
-  { // Q13
+  {
+    // Q13
     question: 'Which of the follow is not an Olympic Sport?',
-    options: ['Squash','Swimming','High Jumping','Wrestling'],
-    answer: 'Squash'
+    options: ['Squash', 'Swimming', 'High Jumping', 'Wrestling'],
+    answer: 'Squash',
   },
-  { // Q14
+  {
+    // Q14
     question: 'What is the distance for the Olympic Marathon?',
-    options: ['45km','44km','43km','42km'],
-    answer: '42km'
+    options: ['45km', '44km', '43km', '42km'],
+    answer: '42km',
   },
-  { // Q15
-    question: 'Who is the only athlete to win gold medals at both the Summer and Winter Olympics?',
-    options: ['Usain Bolt','Eddie Eagan','Carl Lewis','Marit Bjørgen'],
-    answer: 'Eddie Eagan'
+  {
+    // Q15
+    question:
+      'Who is the only athlete to win gold medals at both the Summer and Winter Olympics?',
+    options: ['Usain Bolt', 'Eddie Eagan', 'Carl Lewis', 'Marit Bjørgen'],
+    answer: 'Eddie Eagan',
   },
-  { // Q16
+  {
+    // Q16
     question: 'When were the last pure gold medals awarded at the Olympics?',
-    options: ['1909','1910','1911','1912'],
-    answer: '1912'
+    options: ['1909', '1910', '1911', '1912'],
+    answer: '1912',
   },
-  { // Q17
+  {
+    // Q17
     question: 'When was drug testing introduced in the Olympics?',
-    options: ['1960','1968','1986','1988'],
-    answer: '1968'
+    options: ['1960', '1968', '1986', '1988'],
+    answer: '1968',
   },
-  { // Q18
+  {
+    // Q18
     question: 'How many times has London hosted the Olympic Games?',
-    options: ['1','2','3','4'],
-    answer: '3'
+    options: ['1', '2', '3', '4'],
+    answer: '3',
   },
-  { // Q19
+  {
+    // Q19
     question: 'What organiziation manages the Olympic Games',
-    options: ['Olympic Club International','UN Olympic Committee','World Olympic Organization','International Olympic Committee'],
-    answer: 'International Olympic Committee'
+    options: [
+      'Olympic Club International',
+      'UN Olympic Committee',
+      'World Olympic Organization',
+      'International Olympic Committee',
+    ],
+    answer: 'International Olympic Committee',
   },
-  { // Q20
+  {
+    // Q20
     question: 'How often are the Olympic Games held?',
-    options: ['1 years','2 years','3 years','4 years'],
-    answer: '4 years'
+    options: ['1 years', '2 years', '3 years', '4 years'],
+    answer: '4 years',
   },
   // Added more
   ////We need to add more questions here.
@@ -151,7 +188,7 @@ const Quiz = () => {
   }
 
   //Render the questions
-  const renderQuestion = () => {
+  const Question = () => {
     //Destruct to extract the current questions and answer options.
     const { question, options } = questions[currentQuestionIndex]
     return (
@@ -205,7 +242,7 @@ const Quiz = () => {
           </p>
         </div>
       ) : (
-        renderQuestion()
+        <Question />
       )}
     </div>
   )

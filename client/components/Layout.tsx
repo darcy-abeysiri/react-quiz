@@ -1,15 +1,12 @@
-// The layout
-// may end up scrapping it
-import React from 'react'
-
-const Layout = ({ children }) => (
-  <div>
-    <header>
-      <h1></h1>
-    </header>
-    <main>{children}</main>
-    <footer></footer>
-  </div>
-)
+import { Outlet } from 'react-router-dom'
+import Navbar from './Navbar'
+function Layout() {
+  return (
+    <div>
+      <Navbar />
+      <Outlet />
+    </div>
+  )
+}
 
 export default Layout
