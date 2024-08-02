@@ -161,7 +161,7 @@ const Quiz = () => {
   const [feedback, setFeedback] = useState('')
 
   //Display the question.
-  const handleAnswer = (selectedOption) => {
+  const handleAnswer = (selectedOption: string) => {
     const currentQuestion = questions[currentQuestionIndex]
 
     //If the correct option is selected for the question add 1 to the score and set the feedback as correct.
