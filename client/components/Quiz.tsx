@@ -69,7 +69,7 @@ const questions = [
   {
     // Q10
     question: 'What is not new sports introduced at the Paris Olympics?',
-    options: ['Breaking', 'Surfing', 'Skateboarding', 'E-Sports'],
+    options: ['Break dance', 'Surfing', 'Skateboarding', 'E-Sports'],
     answer: 'E-Sports',
   },
   {
