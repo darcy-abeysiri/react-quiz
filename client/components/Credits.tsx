@@ -10,3 +10,7 @@ function Credits(){
   </p>
 }
 export default Credits
+// git checkout main
+// git pull origin main
+// git merge launch-page
+// git push origin main
