@@ -33,7 +33,7 @@ const questions = [
   },
   {
     // Q5
-    question: 'What is not the Olympic Motto',
+    question: 'What is not the Olympic Motto?',
     options: ['Higher', 'Teamwork', 'Faster', 'Stronger'], // Daft punk ref there
     answer: 'Teamwork',
   },
@@ -68,7 +68,7 @@ const questions = [
   },
   {
     // Q10
-    question: 'What is not new sports introduced at the Pris Olympics?',
+    question: 'What is not new sports introduced at the Paris Olympics?',
     options: ['Breaking', 'Surfing', 'Skateboarding', 'E-Sports'],
     answer: 'E-Sports',
   },
@@ -124,7 +124,7 @@ const questions = [
   },
   {
     // Q19
-    question: 'What organiziation manages the Olympic Games',
+    question: 'What organiziation manages the Olympic Games?',
     options: [
       'Olympic Club International',
       'UN Olympic Committee',
